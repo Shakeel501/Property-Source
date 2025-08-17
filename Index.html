@@ -8,23 +8,20 @@
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
 <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Ref.css">
 
 <body>
-    
-    <!-- Header -->
-    <header>
-        <div class="blur-top">
+    <!-- Main Section -->
 
-        </div>
-        <div class="blur-bottom">
+    <div class="main-container">
 
-        </div>
+        <!-- Navbar Section -->
+
         <nav class="navbar">
-        
             <div class="nav-logo">
-                <img src="Picture/Logo.png" alt="">
+                <img src="Picture/logo.svg" alt="">
             </div>
             <ul class="nav-menu">
                 <li class="nav-items">
@@ -33,33 +30,246 @@
                 <li class="nav-items">
                     <a href="#" class="nav-link">Demos</a>
                 </li>
-                <li class="nav-items">
-                    <a href="#" class="nav-link">Properties</a>
-                </li>
-                <li class="nav-items">
-                    <a href="#" class="nav-link">Agents</a>
-                </li>
-                <li class="nav-items">
-                    <a href="#" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-items">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
             </ul>
-            <div class="nav-contact">
+            <div class="nav-right">
+                <buyer-icon>
+                    <img src="Picture/buyer-icon.svg" alt="">
+                </buyer-icon>
                 <contact-icon>
-                    <img src="Picture/contact.svg" alt="">
+                    <img src="Picture/contact-icon.svg" alt="">
                 </contact-icon>
             </div>
         </nav>
-       <div class="home-heading">
-            <h1>Buy, Sell or Rent</h1><br>
-            <p> List your house or apartment on our website</p>
-       </div>
-    </header>
-    <div class="Recent-Listings">
-        <h2>Recent
+
+        <!-- Hero Section -->
+
+        <div class="hero">
+            <div class="hero-title">
+                <h1>Buy, Sell or Rent</h1>
+            </div>
+            <div class="hero-subtitle">
+                <p>List your house or apartment on our website</p>
+            </div>
+        </div>
+
+        <!-- Search-Section -->
+
+        <div class="search">
+            <div class="search-bar">
+                <input type="text" placeholder="Type key word">
+            </div>
+            <div class="search-category">
+                <input type="text" placeholder="Category">
+            </div>
+            <div class="search-type">
+                <input type="text" placeholder="Type">
+            </div>
+            <div class="search-menu">
+                <img src="Picture/menu.svg" alt="">
+            </div>
+            <button class="search-button">
+                Search
+            </button>
+        </div>  
     </div>
+
+        <!-- Second Section -->
+
+    <section class="recent-listings">
+        <h2>Recent Listings</h2>
+        <p>Our distinctive buildings fill the skyline and streetscapes of the city. Conceived with innovative design and
+            exceptional amenities.</p>
+
+            <!-- Card Container -->
+
+        <div class="card-list">
+            <!-- Card 1 -->
+            <div class="card">
+                <img class="card-img" src="Picture/card-1.png" alt="Apartment in New York">
+                <div class="card-active-box">
+                    Active
+                </div>
+                <div class="card-body">
+                    <h3>Apartment in New York</h3>
+                    <div class="card-price">from 890.000 €</div>
+                    <p>In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned…</p>
+                </div>
+                <div class="card-features">
+                    <span><img src="Picture/bed-icon.png" alt=""> 5</span>
+                    <span><img src="Picture/bathroom-icon.png" alt=""> 2</span>
+                    <span><img src="Picture/size-icon.png" alt=""> 700m</span>
+                </div>
+                <div class="card-footer">
+                    <div class="card-author">
+                        <img src="Picture/Man-pic.png" alt="">
+                        Eric long
+                    </div>
+                    <div class="footer-icon">
+                        <img src="Picture/card-share-icon.svg" alt="">
+                        <img src="Picture/card-favorite-icon.svg" alt="">
+                        <img src="Picture/card-plus-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Card 2 -->
+            <div class="card">
+                <img class="card-img" src="Picture/card-1.png" alt="Apartment in New York">
+                <div class="card-active-box">
+                    Active
+                </div>
+                <div class="card-body">
+                    <h3>Apartment in New York</h3>
+                    <div class="card-price">from 890.000 €</div>
+                    <p>In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned…</p>
+                </div>
+                <div class="card-features">
+                    <span><img src="Picture/bed-icon.png" alt=""> 5</span>
+                    <span><img src="Picture/bathroom-icon.png" alt=""> 2</span>
+                    <span><img src="Picture/size-icon.png" alt=""> 700m</span>
+                </div>
+                <div class="card-footer">
+                    <div class="card-author">
+                        <img src="Picture/Man-pic.png" alt="">
+                        Eric long
+                    </div>
+                    <div class="footer-icon">
+                        <img src="Picture/card-share-icon.svg" alt="">
+                        <img src="Picture/card-favorite-icon.svg" alt="">
+                        <img src="Picture/card-plus-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+             <!-- Card 3 -->
+            <div class="card">
+                <img class="card-img" src="Picture/card-1.png" alt="Apartment in New York">
+                <div class="card-active-box">
+                    Active
+                </div>
+                <div class="card-body">
+                    <h3>Apartment in New York</h3>
+                    <div class="card-price">from 890.000 €</div>
+                    <p>In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned…</p>
+                </div>
+                <div class="card-features">
+                    <span><img src="Picture/bed-icon.png" alt=""> 5</span>
+                    <span><img src="Picture/bathroom-icon.png" alt=""> 2</span>
+                    <span><img src="Picture/size-icon.png" alt=""> 700m</span>
+                </div>
+                <div class="card-footer">
+                    <div class="card-author">
+                        <img src="Picture/Man-pic.png" alt="">
+                        Eric long
+                    </div>
+                    <div class="footer-icon">
+                        <img src="Picture/card-share-icon.svg" alt="">
+                        <img src="Picture/card-favorite-icon.svg" alt="">
+                        <img src="Picture/card-plus-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Card 4 -->
+            <div class="card">
+                <img class="card-img" src="Picture/card-1.png" alt="Apartment in New York">
+                <div class="card-active-box">
+                    Active
+                </div>
+                <div class="card-body">
+                    <h3>Apartment in New York</h3>
+                    <div class="card-price">from 890.000 €</div>
+                    <p>In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned…</p>
+                </div>
+                <div class="card-features">
+                    <span><img src="Picture/bed-icon.png" alt=""> 5</span>
+                    <span><img src="Picture/bathroom-icon.png" alt=""> 2</span>
+                    <span><img src="Picture/size-icon.png" alt=""> 700m</span>
+                </div>
+                <div class="card-footer">
+                    <div class="card-author">
+                        <img src="Picture/Man-pic.png" alt="">
+                        Eric long
+                    </div>
+                    <div class="footer-icon">
+                        <img src="Picture/card-share-icon.svg" alt="">
+                        <img src="Picture/card-favorite-icon.svg" alt="">
+                        <img src="Picture/card-plus-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+             <!-- Card 5 -->
+            <div class="card">
+                <img class="card-img" src="Picture/card-1.png" alt="Apartment in New York">
+                <div class="card-active-box">
+                    Active
+                </div>
+                <div class="card-body">
+                    <h3>Apartment in New York</h3>
+                    <div class="card-price">from 890.000 €</div>
+                    <p>In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned…</p>
+                </div>
+                <div class="card-features">
+                    <span><img src="Picture/bed-icon.png" alt=""> 5</span>
+                    <span><img src="Picture/bathroom-icon.png" alt=""> 2</span>
+                    <span><img src="Picture/size-icon.png" alt=""> 700m</span>
+                </div>
+                <div class="card-footer">
+                    <div class="card-author">
+                        <img src="Picture/Man-pic.png" alt="">
+                        Eric long
+                    </div>
+                    <div class="footer-icon">
+                        <img src="Picture/card-share-icon.svg" alt="">
+                        <img src="Picture/card-favorite-icon.svg" alt="">
+                        <img src="Picture/card-plus-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Card 6 -->
+            <div class="card">
+                <img class="card-img" src="Picture/card-1.png" alt="Apartment in New York">
+                <div class="card-active-box">
+                    Active
+                </div>
+                <div class="card-body">
+                    <h3>Apartment in New York</h3>
+                    <div class="card-price">from 890.000 €</div>
+                    <p>In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned…</p>
+                </div>
+                <div class="card-features">
+                    <span><img src="Picture/bed-icon.png" alt=""> 5</span>
+                    <span><img src="Picture/bathroom-icon.png" alt=""> 2</span>
+                    <span><img src="Picture/size-icon.png" alt=""> 700m</span>
+                </div>
+                <div class="card-footer">
+                    <div class="card-author">
+                        <img src="Picture/Man-pic.png" alt="">
+                        Eric long
+                    </div>
+                    <div class="footer-icon">
+                        <img src="Picture/card-share-icon.svg" alt="">
+                        <img src="Picture/card-favorite-icon.svg" alt="">
+                        <img src="Picture/card-plus-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+</div>
+        </div>
+        <div class="card-loader">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+            <div class="circle-4"></div>
+        </div>
+           
 </body>
 
 </html>

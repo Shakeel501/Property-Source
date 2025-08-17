@@ -1,0 +1,49 @@
+/* 
+.blur-top,
+.blur-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 150px;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.blur-top::before,
+.blur-bottom::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(8px);
+}
+
+.blur-top {
+    top: 0;
+}
+
+.blur-top::before {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.blur-bottom {
+    bottom: 0;
+}
+
+.blur-bottom::before {
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+.btn1 {
+    background-color: var(--white-color);
+    margin-top: 60px;
+    padding: 15px 30px;
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    border-radius: 10px;
+}  */
